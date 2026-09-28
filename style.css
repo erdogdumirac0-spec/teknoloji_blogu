@@ -1,0 +1,119 @@
+/* GENEL AYARLAR */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER (ÜST BİLGİ) TASARIMI */
+header {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+nav a {
+    color: #ffd54f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* MAIN (ANA İÇERİK) TASARIMI */
+main {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* ARTICLE (MAKALE) TASARIMI */
+article {
+    flex: 3;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.makale-header {
+    background-color: #1a237e;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.makale-header h2 {
+    margin: 0 0 10px 0;
+}
+
+.makale-header p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* FIGURE VE RESİM TASARIMI */
+figure {
+    margin: 20px 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 8px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* SECTION BÖLÜMLERİ */
+section {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* ASIDE (YAN ÇUBUK) TASARIMI */
+aside {
+    flex: 1;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #1a237e;
+    height: fit-content;
+}
+
+/* FOOTER (ALT BİLGİ) TASARIMI */
+footer {
+    background-color: #1a237e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
